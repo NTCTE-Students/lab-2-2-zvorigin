@@ -1,0 +1,16 @@
+<form method="GET" action="">
+    <input type="text" name="search" placeholder="Поиск по названию или описанию">
+    
+    <select name="status">
+        <option value="">Все статусы</option>
+        <option value="В процессе">В процессе</option>
+        <option value="Завершено">Завершено</option>
+    </select>
+    
+    <select name="sort">
+        <option value="created_at">Сортировать по дате создания</option>
+        <option value="status">Сортировать по статусу</option>
+    </select>
+    
+    <input type="submit" value="Применить">
+</form>
